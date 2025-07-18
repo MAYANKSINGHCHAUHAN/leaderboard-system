@@ -1,0 +1,74 @@
+.App {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  color: #333;
+}
+
+.user-selection {
+  margin-bottom: 30px;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+}
+
+.user-selection select,
+.user-selection button,
+.add-user-form input,
+.add-user-form button {
+  padding: 8px 12px;
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+.add-user-form {
+  margin-top: 15px;
+}
+
+.claim-notification {
+  margin: 15px 0;
+  padding: 10px;
+  background-color: #dff0d8;
+  color: #3c763d;
+  border-radius: 4px;
+}
+
+.leaderboard-container {
+  display: flex;
+  gap: 30px;
+}
+
+.current-rankings,
+.point-history {
+  flex: 1;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #f5f5f5;
+}
